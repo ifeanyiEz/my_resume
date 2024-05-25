@@ -1,2 +1,2 @@
-# my_resume
+# My Resume
 My resume that captures everything
