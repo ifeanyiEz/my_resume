@@ -1,16 +1,12 @@
 html {
-    font-family: 'Century Gothic', Montserrat, sans-serif;
     width: auto;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*<uniquifier>: Use a unique and descriptive class name*/
-/*<weight>: Use a value from 100 to 900*/
-
-.raleway-normal-font {
-    font-family: "Raleway", sans-serif;
+body {
+    font-family: 'Raleway', 'Century Gothic', sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
