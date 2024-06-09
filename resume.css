@@ -6,6 +6,16 @@ html {
     margin-right: auto;
 }
 
+/*<uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 100 to 900*/
+
+.raleway-normal-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
 h1 {
     font-size: 400%;
     margin: auto;
