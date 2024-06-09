@@ -4,14 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ifeanyi's Resume</title>
+        <link rel="stylesheet" href="./resume.css">
     </head>
     <body>
         <header>
             <h1>EZUGWORIE, Ifeanyi Ofor</h1>
-            <h3>Director of Products, Scelloo Technologies Ltd.</h3>
-            <h4>B.Eng. Electrical and Electronics Engineering</h4>
-            <h4>Software Engineer: Python, Flask, Django, Javascript, Node.JS, React.JS, SQL, PostgreSQL, MongoDB, PyMongo</h4>
-            <h4>Software Product Manager</h4>
+            <h3 class="current-designation">Director of Products, Scelloo Technologies Ltd.</h3>
+            <div class="professional-qualifications">
+                <h4 class="edu-and-training">B.Eng. Electrical and Electronics Engineering <span class="separators">|</span></h4>
+                <h4 class="edu-and-training">Software Engineer: Python, Flask, <span class="skills-in-view">Django</span>, <span class="skills-in-view">Javascript, Node.JS, React.JS</span>, SQL, PostgreSQL, MongoDB, PyMongo <span class="separators">|</span></h4>
+                <h4 class="edu-and-training">Software Product Manager</h4>
+            </div>
             <hr>
         </header>
         <main>
@@ -23,7 +26,7 @@
             <section>
                 <h2>PROFESSIONAL SKILLS</h2>
                 <div>
-                    <h3>SOFTWARE ENGINEERING</h3>
+                    <h3 class="skill-categories">SOFTWARE ENGINEERING</h3>
                     <table>
                         <thead>
                             <tr>
@@ -37,23 +40,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Platforms:</td>
+                                <td class="skill-groups">Platforms:</td>
                                 <td>Windows</td>
-                                <td>Linux (Ubuntu 20.04)</td>
+                                <td class="skills-in-view">Linux (Ubuntu 20.04)</td>
                                 <td>WSL2</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Languages:</td>
+                                <td class="skill-groups">Languages:</td>
                                 <td>Python</td>
-                                <td>JavaScript</td>
+                                <td class="skills-in-view">JavaScript</td>
                                 <td>SQL</td>
                                 <td>HTML</td>
                                 <td>CSS</td>
                             </tr>
                             <tr>
-                                <td>Databases:</td>
+                                <td class="skill-groups">Databases:</td>
                                 <td>PostgreSQL</td>
                                 <td>MongoDB</td>
                                 <td></td>
@@ -61,7 +64,7 @@
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Versioning:</td>
+                                <td class="skill-groups">Versioning:</td>
                                 <td>Git</td>
                                 <td>GitHub</td>
                                 <td></td>
@@ -69,7 +72,7 @@
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Technologies:</td>
+                                <td class="skill-groups">Technologies:</td>
                                 <td>RESTful API</td>
                                 <td>SQLAlchemy</td>
                                 <td>psycopg2</td>
@@ -94,16 +97,16 @@
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>Django</td>
-                                <td>Node.JS</td>
-                                <td>React.JS</td>
-                                <td>Express.JS</td>
-                                <td>Vue.JS</td>
+                                <td class="skills-in-view">Django</td>
+                                <td class="skills-in-view">Node.JS</td>
+                                <td class="skills-in-view">React.JS</td>
+                                <td class="skills-in-view">Express.JS</td>
+                                <td class="skills-in-view">Vue.JS</td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td>Bootstrap</td>
-                                <td>Tailwind CSS</td>
+                                <td class="skills-in-view">Tailwind CSS</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -112,7 +115,7 @@
                     </table>
                 </div>
                 <div>
-                    <h3>BUSINESS ANALYTICS</h3>
+                    <h3 class="skill-categories">BUSINESS ANALYTICS</h3>
                     <table>
                         <thead>
                             <tr>
@@ -125,17 +128,17 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Analytic Tools:</td>
-                                <td>Google Sheets</td>
+                                <td class="skill-groups">Analytic Tools:</td>
                                 <td>Microsoft Excel</td>
-                                <td>Power BI</td>
-                                <td>Tableau</td>
+                                <td>Google Sheets</td>
+                                <td class="skills-in-view">Power BI</td>
+                                <td class="skills-in-view">Tableau</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div>
-                    <h3>PRODUCT MANAGEMENT</h3>
+                    <h3 class="skill-categories">PRODUCT MANAGEMENT</h3>
                     <table>
                         <thead>
                             <tr>
@@ -147,7 +150,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Industry Skills:</td>
+                                <td class="skill-groups">Industry Skills:</td>
                                 <td>Product Ideation</td>
                                 <td>UX Design</td>
                                 <td>UX Management</td>
@@ -177,7 +180,7 @@
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Soft Skills:</td>
+                                <td class="skill-groups">Soft Skills:</td>
                                 <td>Research</td>
                                 <td>Strategic Thinking</td>
                                 <td>Effective Communication</td>
@@ -190,14 +193,14 @@
             <section>
                 <h2>WORK EXPERIENCE</h2>
                 <div>
-                    <div>
-                        <h3>DIRECTOR OF PRODUCTS</h3>
-                        <h3>SCELLOO TECHNOLOGIES LTD</h3>
-                        <p><a href="https://scelloo.com">www.scelloo.com</a></p>
-                        <p>July 2022 - Present</p>
+                    <div class="exp-header">
+                        <h3 class="exp role">DIRECTOR OF PRODUCTS,</h3>
+                        <h3 class="exp employer">SCELLOO TECHNOLOGIES LTD</h3>
+                        <a class="exp employer-website" href="https://scelloo.com">(www.scelloo.com)</a>
+                        <p class="exp duration">July 2022 - Present</p>
                     </div>
                     <div>
-                        <h4>RESPONSIBILITIES</h4>
+                        <h4 class="resp-and-achieve">RESPONSIBILITIES</h4>
                         <ul>
                             <li>Adopt and evangelize the products’ vision and strategy.</li>
                             <li>Own and manage the product development lifecycle.</li>
@@ -220,7 +223,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4>KEY ACHIEVEMENTS</h4>
+                        <h4 class="resp-and-achieve">KEY ACHIEVEMENTS</h4>
                         <ul>
                             <li>I am currently overseeing the production of various types of documentation (PRDs, User Stories, and User Guides), and
                             training videos for all the products.</li>
@@ -233,36 +236,36 @@
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <h3>SOFTWARE ENGINEER (Backend)</h3>
-                        <h3>INSTANT DEPOSIT LTD</h3>
-                        <a href="https://www.instantdeposit.africa">www.instantdeposit.africa</a>
-                        <p>July 2022 - November 2022</p>
+                    <div class="exp-header">
+                        <h3 class="exp role">SOFTWARE ENGINEER (Backend),</h3>
+                        <h3 class="exp employer">INSTANT DEPOSIT LTD</h3>
+                        <a class="exp employer-website" href="https://www.instantdeposit.africa">(www.instantdeposit.africa)</a>
+                        <p class="exp duration">July 2022 - November 2022</p>
                     </div>
                     <div>
-                        <h4>RESPONSIBILITIES</h4>
+                        <h4 class="resp-and-achieve">RESPONSIBILITIES</h4>
                         <ul>
                             <li>Project needs assessment, requirements analysis, solution development, solution documentation.</li>
                             
                         </ul>
                     </div>
                     <div>
-                        <h4>KEY ACHIEVEMENTS</h4>
+                        <h4 class="resp-and-achieve">KEY ACHIEVEMENTS</h4>
                         <ul>
-                            <li>Built the reports API for the Plateau State Community Health Insurance Scheme (PLASCHEMA) project.</li>
-                            <li>Built a custom subsystem that generates a one-time password (OTP) and, upon request, sends it to an existing email address and also validates the password on request.</li>
+                            <li>I built the reports API for the Plateau State Community Health Insurance Scheme (PLASCHEMA) project.</li>
+                            <li>I also built a custom one-time password (OTP) system, which generates and sends OTPs to existing email addresses and also validates the password on request.</li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <h3>CONSULTANT, PRODUCT MANAGEMENT</h3>
-                        <h3>TERRENCE GRAY LTD</h3>
-                        <p><a href=""></a></p>
-                        <p>January 2019 - June 2022</p>
+                    <div class="exp-header">
+                        <h3 class="exp role">CONSULTANT: PRODUCT MANAGEMENT,</h3>
+                        <h3 class="exp employer">TERRENCE GRAY LTD</h3>
+                        <a class="exp employer-website" href=""></a>
+                        <p class="exp duration">January 2019 - June 2022</p>
                     </div>
                     <div>
-                        <h4>RESPONSIBILITIES</h4>
+                        <h4 class="resp-and-achieve">RESPONSIBILITIES</h4>
                         <ul>
                             <li>Identify market segment needs, envision competitive products and services, and align the engineering, business and marketing teams around the realization and delivery of finished products and services.</li>
                             <li>Understanding and representing user needs, as well as monitoring the market to develop competitive analyses.</li>
@@ -277,7 +280,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4>KEY ACHIEVEMENTS</h4>
+                        <h4 class="resp-and-achieve">KEY ACHIEVEMENTS</h4>
                         <ul>
                             <li>I Introduced and facilitated the adoption of Agile methodologies across the organization.</li>
                             <li>I introduced and oversaw the implementation of Jira as an Agile project management tool.</li>
@@ -287,21 +290,21 @@
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <h3>BUSINESS MANAGER: PERSONAL MARKETS (PERSONAL AND BUSINESS BANKING)</h3>
-                        <h3>STANBIC IBTC BANK PLC</h3>
-                        <a href="https://www.stanbicibtcbank.com/">www.stanbicibtcbank.com</a>
-                        <p>January 2013 - April 2013</p>
+                    <div class="exp-header">
+                        <h3 class="exp role">BUSINESS MANAGER: PERSONAL MARKETS (PERSONAL AND BUSINESS BANKING),</h3>
+                        <h3 class="exp employer">STANBIC IBTC BANK PLC</h3>
+                        <a class="exp employer-website" href="https://www.stanbicibtcbank.com/">(www.stanbicibtcbank.com)</a>
+                        <p class="exp duration">January 2013 - April 2013</p>
                     </div>
                     <div>
                         <h4></h4>
                         <ul></ul>
                     </div>
                     <div>
-                        <h4>KEY ACHIEVEMENTS</h4>
+                        <h4 class="resp-and-achieve">KEY ACHIEVEMENTS</h4>
                         <ul>
                             <li>I initiated monthly monitoring and reporting on loan disbursements within Personal Markets.</li>
-                            <li>I initiated daily and monthly performance monitoring (based on asset and liability portfolio position) for relationship banking team, comprising all zones, regions, and branches in the Personal Markets network.</li>
+                            <li>I initiated daily and monthly performance monitoring (based on asset and liability portfolio position) for the relationship banking team, comprising all zones, regions, and branches in the Personal Markets network.</li>
                             <li>I efficiently provided high level managerial support to the HPM in responsibilities of planning, organizing and performance management.</li>
                             <li>I established and maintained a very effective working relationship between the HPM and the business units.</li>
                             <li>I handled, with admirable competence, several duties incidental to the HPM’s responsibilities.</li>

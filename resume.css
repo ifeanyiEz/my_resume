@@ -1,0 +1,92 @@
+html {
+    font-family: 'Century Gothic', Montserrat, sans-serif;
+    width: auto;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 400%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 200%;
+    margin: 10px 0 0 0;
+}
+
+td {
+    padding-top:  5px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.professional-qualifications .edu-and-training {
+    display: inline-block;
+}
+
+.current-designation {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.edu-and-training {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.skill-categories {
+    color: #034486;
+    font-size: 120%;
+    margin: 15px 0 0 0;
+}
+
+.skills-in-view {
+    color: red;
+}
+
+.skill-groups {
+    font-weight: 600;
+}
+
+.separators {
+    font-weight: 900;
+    color: darkblue;
+}
+
+.exp-header {
+    margin-top: 5px;
+    background-color: rgba(176, 215, 247, 0.541);
+}
+
+.exp-header .exp {
+    display: inline-block;
+}
+
+.exp {
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+    margin: 5px 0 0 0;
+}
+
+.resp-and-achieve {
+    color: #034486;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+}
+
+.employer-website {
+    font-size: 15px;
+}
+
+.duration {
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+}
+
+
